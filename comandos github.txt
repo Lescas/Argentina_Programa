@@ -1,0 +1,10 @@
+git init: para iniciar
+git config user."name": nombre de la cuenta
+git config user.email: mail de la cuenta
+git config user.password: token del repositorio
+git remote add (nombre que querramos ej:origin) URL: para comunicar los repositorios
+git status: para ver el estado de los archivos que hay en el repositorio
+git add "nombre del archivo": para enviar el archivo provisoriamente a github
+git commit -m "mensaje de cnfirmacion": para confirmar el archivo de forma definitiva
+git push -u (nombre_de_git_remote_add) (nombre_de_rama): enviamos los archivo al repo remoto
+git clone URL: clonar los archivo del repo remoto
